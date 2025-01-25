@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <!-- This is navbar Section -->
+        <section class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl">
+                            <li><a class="text-[#068DBE]">Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Pricing</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <img class="w-14" src="./images/courier-logo 1.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-xl">
+                        <li><a class="text-[#068DBE] font-medium">Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Pricing</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-4">
+                    <a class="btn bg-[#068DBE] text-white">Sign in</a>
+                    <a class="btn bg-[#068DBE] text-white">Sign up</a>
+                </div>
+            </div>
+        </section>
+        <!-- banner section -->
+        <section class="container mx-auto">
+            <!-- <div>
+                <img src="./images/banner.png" alt="">
+            </div> -->
+            <div class="w-full flex flex-col md:flex-row justify-between items-center ">
+                <div class="w-6/12 bg-[url('./images/skyblue.png')]">
+                    <h1 class="md:text-5xl font-semibold">Book Your Courier in Minutes Hassle-Free Shipping</h1>
+                    <p class="md:w-4/6 mt-3 mb-6">Our simple and quick booking process ensures a smooth, hassle-free
+                        experience, allowing you to ship</p>
+                    <button class="btn bg-[#068DBE] md:text-xl font-medium text-white">Contact Us</button>
+                </div>
+                <div class="w-6/12">
+                    <img src="./images/courier 1.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- this is category section -->
+        <section class="container mx-auto mb-10">
+            <h1 class="text-2xl font-medium text-center mb-7">Category</h1>
+            <div class="flex flex-col md:flex-row gap-8 md:justify-between items-center">
+                <div class="px-8 py-4 border border-[#40C4D8] bg-white shadow-xl rounded-lg w-[270px]">
+                    <img class="h-[116px] mx-auto" src="./images/Package Pickup Service.png" alt="">
+                    <h2 class="text-xl font-medium mt-2 text-center mx-auto">Package Pickup Service</h2>
+                </div>
+                <div class="px-8 py-4 border border-[#40C4D8] bg-white shadow-xl rounded-lg w-[270px]">
+                    <img class="h-[116px] mx-auto" src="./images/International Shipping (2) 1.png" alt="">
+                    <h2 class="text-xl font-medium mt-2 text-center mx-auto">International Shipping</h2>
+                </div>
+                <div class="px-8 py-4 border border-[#40C4D8] bg-white shadow-xl rounded-lg w-[270px]">
+                    <img class="h-[116px] mx-auto" src="./images/on-demand 1.png" alt="">
+                    <h2 class="text-xl font-medium mt-2 text-center mx-auto">On-Demand Delivery</h2>
+                </div>
+                <div class="px-8 py-4 border border-[#40C4D8] bg-white shadow-xl rounded-lg w-[270px]">
+                    <img class="h-[116px] mx-auto" src="./images/Business Courier Solutions.png" alt="">
+                    <h2 class="text-xl font-medium mt-2 text-center mx-auto">Business Courier Solutions</h2>
+                </div>
+            </div>
+        </section>
+        <!-- This is About Us Section -->
+        <section class="container mx-auto mb-12">
+            <h1 class="text-2xl font-medium text-center mb-7">About Us</h1>
+            <div class="flex flex-col md:flex-row justify-between gap-8">
+                <div class="md:w-6/12">
+                    <p>we are committed to providing fast, reliable, and secure delivery services tailored to meet the
+                        unique needs of both individuals and businesses. With a global network and advanced tracking
+                        systems, we ensure that every package reaches its destination on time, every time. Whether you need
+                        same-day delivery, international shipping, or freight solutions, our <br><br>
+                        we are committed to providing fast, reliable, and secure delivery services tailored to meet the
+                        unique needs of both individuals and businesses. With a global network and advanced tracking
+                        systems, we ensure that every package reaches its destination on time, every time. Whether you need
+                        same-day delivery, international shipping, or freight solutions.<br><br>
+                        we are committed to providing fast, reliable, and secure delivery services tailored to meet the
+                        unique needs of both individuals and businesses. With a global network and advanced tracking
+                        systems, we ensure that every package reaches its destination on time, every time. Whether you need
+                        same-day delivery, international shipping, or freight solutions. <br> <br>
+                        Whether you need same-day delivery, international shipping, or freight solutions.Whether you need same-day delivery, international shipping, or freight solutions
+                    </p>
+                </div>
+                <div class="md:w-6/12">
+                    <img class="h-[400px] w-full" src="./images/courier.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Why choose us -->
+        <section>
+            <h1 class="text-2xl font-medium text-center mb-7">Why Choose Us</h1>
+            <div>
+                <div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
